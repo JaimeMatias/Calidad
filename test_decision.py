@@ -8,6 +8,12 @@ class  TestStringMethods(unittest.TestCase ):
 
         self.assertEqual(var, valor)
 
+    def test_complejidad_read(self):
+        var = os.system('xenon -b B Read.py')
+        valor= 0
+
+        self.assertEqual(var, valor)
+
 
 
 if __name__ == '__main__':
