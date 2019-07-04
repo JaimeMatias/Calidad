@@ -3,7 +3,7 @@ import unittest
 import os
 class  TestStringMethods(unittest.TestCase ):
     def test_complejidad_decision(self):
-        var = os.system('xenon -b A decision.py')
+        var = os.system('xenon -b B decision.py')
         valor= 0
 
         self.assertEqual(var, valor)
