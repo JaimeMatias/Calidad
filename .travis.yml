@@ -1,7 +1,1 @@
-languaje: python
-
-install:
-  pip install -r requirements.txt
-
-script:
-  python test_decision.py
+language: python
