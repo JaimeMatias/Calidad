@@ -1,4 +1,4 @@
-languaje: Python
+languaje: python
 python:
   "3.6"
 install:
